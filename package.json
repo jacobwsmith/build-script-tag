@@ -1,0 +1,31 @@
+{
+  "name": "tags-webpack",
+  "version": "1.0.0",
+  "description": "work in progress",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js",
+    "rollup": "rollup -c",
+    "typescript": "tsc src/product1/index.ts --outFile dist/product1.js --module AMD --listEmittedFiles --target ES5 --removeComments"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobwsmith/tags-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobwsmith/tags-webpack/issues"
+  },
+  "homepage": "https://github.com/jacobwsmith/tags-webpack#readme",
+  "devDependencies": {
+    "rollup": "^0.65.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-plugin-uglify": "^4.0.0",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}
